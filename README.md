@@ -1,5 +1,10 @@
 # WLXBluetoothDeviceReactiveExtensions
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Wolox/WLXBluetoothDevice?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/Wolox/WLXBluetoothDeviceReactiveExtensions.svg)](https://travis-ci.org/Wolox/WLXBluetoothDeviceReactiveExtensions)
+[![Release](https://img.shields.io/github/release/Wolox/WLXBluetoothDeviceReactiveExtensions.svg)](https://github.com/Wolox/WLXBluetoothDeviceReactiveExtensions/releases)
+
 TODO
 
 ## Installation
