@@ -16,6 +16,11 @@ curl_command="curl -s"$authentication
 ocmockito_url="https://github.com/jonreid/OCMockito/releases/download/v$OCMOCKITO_VERSION/OCMockito-$OCMOCKITO_VERSION.zip"
 ochamcrest_url="https://github.com/hamcrest/OCHamcrest/releases/download/v$OCHAMCREST_VERSION/OCHamcrest-$OCHAMCREST_VERSION.zip"
 
+if [ ! -d Frameworks ]
+then
+  mkdir Frameworks
+fi
+
 echo ""
 echo " → Installing frameworks"
 echo ""
