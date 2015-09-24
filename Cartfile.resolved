@@ -1,6 +1,6 @@
 github "CocoaLumberjack/CocoaLumberjack" "479279f102a8ab23084290697bafa77aac0d1bdf"
 github "antitypical/Result" "76f9a972ed61ff872b731460bc610c8acbfae58c"
 github "specta/expecta" "v1.0.3"
-github "specta/specta" "8f7ac2989d5ad953ded6c3c3668ee128cd2e5683"
+github "specta/specta" "v1.0.4"
 github "ReactiveCocoa/ReactiveCocoa" "v4.0-alpha.1"
 github "Wolox/WLXBluetoothDevice" "0.3.0"
