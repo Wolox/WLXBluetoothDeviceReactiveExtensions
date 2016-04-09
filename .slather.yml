@@ -1,4 +1,5 @@
 coverage_service: coveralls
 xcodeproj: WLXBluetoothDeviceReactiveExtensions.xcodeproj
+scheme: WLXBluetoothDeviceReactiveExtensions
 ignore:
   - WLXBluetoothDeviceReactiveExtensionsTests/*
