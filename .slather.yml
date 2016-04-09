@@ -1,6 +1,4 @@
 coverage_service: coveralls
-xcodeproj: Example/WLXBluetoothDevice.xcodeproj
-source_directory: Pod/Classes
+xcodeproj: WLXBluetoothDeviceReactiveExtensions.xcodeproj
 ignore:
-  - Example/WLXBluetoothDevice/*
-  - Example/Tests/*
+  - WLXBluetoothDeviceReactiveExtensionsTests/*
