@@ -34,8 +34,8 @@ beforeEach(^{
     asyncExecutor = mock([WLXCharacteristicAsyncExecutor class]);
     serviceManager = [[WLXServiceManager alloc] initWithPeripheral:peripheral
                                                            service:service
-                                                notificationCenter:notificationCenter];
-    serviceManager.asyncExecutor = asyncExecutor;
+                                                notificationCenter:notificationCenter
+                                                     asyncExecutor:asyncExecutor];
     [MKTGiven([characteristic UUID]) willReturn:characteristicUUID];
     
 });
