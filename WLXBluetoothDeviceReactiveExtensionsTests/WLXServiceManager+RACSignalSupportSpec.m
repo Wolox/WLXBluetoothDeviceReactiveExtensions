@@ -35,7 +35,9 @@ beforeEach(^{
     serviceManager = [[WLXServiceManager alloc] initWithPeripheral:peripheral
                                                            service:service
                                                 notificationCenter:notificationCenter
+                                                             queue:dispatch_get_main_queue()
                                                      asyncExecutor:asyncExecutor];
+
     [MKTGiven([characteristic UUID]) willReturn:characteristicUUID];
     
 });
