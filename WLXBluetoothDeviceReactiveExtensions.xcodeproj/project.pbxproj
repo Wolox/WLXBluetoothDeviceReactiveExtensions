@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9D5CA65A1B132CB000356292 /* WLXBluetoothDeviceReactiveExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5CA64F1B132CAF00356292 /* WLXBluetoothDeviceReactiveExtensions.framework */; };
 		9D5CA66F1B132D3700356292 /* OCHamcrestIOS.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9D5CA5FE1B13092900356292 /* OCHamcrestIOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9D5CA6701B132D3700356292 /* ReactiveCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9D44AB2E1B12FFCA0009A4A6 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9D5CA6711B132D3700356292 /* OCMockitoIOS.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9D44AB2C1B12DAE00009A4A6 /* OCMockitoIOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9D5CA6731B132D3700356292 /* Expecta.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9D1FD8871B1230E5004A45F4 /* Expecta.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9D5CA6741B132D3700356292 /* Specta.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9D1FD8881B1230E5004A45F4 /* Specta.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -26,20 +25,18 @@
 		9D5CA7061B132EF000356292 /* WLXReactiveDeviceDiscovererDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5CA7011B132EF000356292 /* WLXReactiveDeviceDiscovererDelegateSpec.m */; };
 		9D5CA7071B132EF000356292 /* WLXServiceManager+RACSignalSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5CA7021B132EF000356292 /* WLXServiceManager+RACSignalSupportSpec.m */; };
 		9D5CA7081B132EF000356292 /* WLXServicesManager+RACSignalSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5CA7031B132EF000356292 /* WLXServicesManager+RACSignalSupportSpec.m */; };
-		9D5CA7091B132F8A00356292 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D44AB2E1B12FFCA0009A4A6 /* ReactiveCocoa.framework */; };
 		9D5CA70A1B132FB200356292 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5CA5FE1B13092900356292 /* OCHamcrestIOS.framework */; };
 		9D5CA70B1B132FB200356292 /* OCMockitoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D44AB2C1B12DAE00009A4A6 /* OCMockitoIOS.framework */; };
 		9D5CA70C1B132FB200356292 /* Expecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1FD8871B1230E5004A45F4 /* Expecta.framework */; };
 		9D5CA70D1B132FB200356292 /* Specta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1FD8881B1230E5004A45F4 /* Specta.framework */; };
-		9D5CA7171B13374B00356292 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5CA7161B13374B00356292 /* Result.framework */; };
-		9D5CA7181B13375F00356292 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5CA7161B13374B00356292 /* Result.framework */; };
-		9D5CA7191B13376800356292 /* Result.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9D5CA7161B13374B00356292 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9D5CA71D1B133DA900356292 /* SwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5CA71C1B133DA900356292 /* SwiftFile.swift */; };
 		9DAB72801BB362CD005D42E5 /* WLXBluetoothDevice.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9DAB727F1BB362CD005D42E5 /* WLXBluetoothDevice.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9DAB72811BB362EC005D42E5 /* WLXBluetoothDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DAB727F1BB362CD005D42E5 /* WLXBluetoothDevice.framework */; };
 		9DBF379E1B1D8BD7009E99EE /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBF379C1B1D8BAE009E99EE /* CocoaLumberjack.framework */; };
 		9DBF37B81B1E01F1009E99EE /* CocoaLumberjack.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9DBF379C1B1D8BAE009E99EE /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9DBF37B91B1E01F8009E99EE /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBF379C1B1D8BAE009E99EE /* CocoaLumberjack.framework */; };
+		9DDA9FEB1DC95EF600D5F671 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDA9FEA1DC95EF600D5F671 /* ReactiveObjC.framework */; };
+		9DDA9FEC1DC9601C00D5F671 /* ReactiveObjC.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9DDA9FEA1DC95EF600D5F671 /* ReactiveObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,11 +56,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				9DDA9FEC1DC9601C00D5F671 /* ReactiveObjC.framework in CopyFiles */,
 				9DAB72801BB362CD005D42E5 /* WLXBluetoothDevice.framework in CopyFiles */,
-				9D5CA7191B13376800356292 /* Result.framework in CopyFiles */,
 				9D5CA66F1B132D3700356292 /* OCHamcrestIOS.framework in CopyFiles */,
 				9DBF37B81B1E01F1009E99EE /* CocoaLumberjack.framework in CopyFiles */,
-				9D5CA6701B132D3700356292 /* ReactiveCocoa.framework in CopyFiles */,
 				9D5CA6711B132D3700356292 /* OCMockitoIOS.framework in CopyFiles */,
 				9D5CA6731B132D3700356292 /* Expecta.framework in CopyFiles */,
 				9D5CA6741B132D3700356292 /* Specta.framework in CopyFiles */,
@@ -76,7 +72,6 @@
 		9D1FD8871B1230E5004A45F4 /* Expecta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Expecta.framework; path = Carthage/Build/iOS/Expecta.framework; sourceTree = "<group>"; };
 		9D1FD8881B1230E5004A45F4 /* Specta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Specta.framework; path = Carthage/Build/iOS/Specta.framework; sourceTree = "<group>"; };
 		9D44AB2C1B12DAE00009A4A6 /* OCMockitoIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMockitoIOS.framework; path = Frameworks/OCMockitoIOS.framework; sourceTree = "<group>"; };
-		9D44AB2E1B12FFCA0009A4A6 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
 		9D5CA5FE1B13092900356292 /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrestIOS.framework; path = Frameworks/OCHamcrestIOS.framework; sourceTree = "<group>"; };
 		9D5CA64F1B132CAF00356292 /* WLXBluetoothDeviceReactiveExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WLXBluetoothDeviceReactiveExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5CA6521B132CAF00356292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,10 +92,10 @@
 		9D5CA7031B132EF000356292 /* WLXServicesManager+RACSignalSupportSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WLXServicesManager+RACSignalSupportSpec.m"; sourceTree = "<group>"; };
 		9D5CA70E1B1331D600356292 /* SpecHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecHelper.h; sourceTree = "<group>"; };
 		9D5CA7131B13370B00356292 /* WLXBluetoothDeviceReactiveExtensionsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WLXBluetoothDeviceReactiveExtensionsTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		9D5CA7161B13374B00356292 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		9D5CA71C1B133DA900356292 /* SwiftFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftFile.swift; path = WLXBluetoothDeviceReactiveExtensionsTests/SwiftFile.swift; sourceTree = SOURCE_ROOT; };
 		9DAB727F1BB362CD005D42E5 /* WLXBluetoothDevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WLXBluetoothDevice.framework; path = Carthage/Build/iOS/WLXBluetoothDevice.framework; sourceTree = "<group>"; };
 		9DBF379C1B1D8BAE009E99EE /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
+		9DDA9FEA1DC95EF600D5F671 /* ReactiveObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveObjC.framework; path = Carthage/Build/iOS/ReactiveObjC.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +103,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DDA9FEB1DC95EF600D5F671 /* ReactiveObjC.framework in Frameworks */,
 				9DBF379E1B1D8BD7009E99EE /* CocoaLumberjack.framework in Frameworks */,
-				9D5CA7171B13374B00356292 /* Result.framework in Frameworks */,
-				9D5CA7091B132F8A00356292 /* ReactiveCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +113,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DAB72811BB362EC005D42E5 /* WLXBluetoothDevice.framework in Frameworks */,
-				9D5CA7181B13375F00356292 /* Result.framework in Frameworks */,
 				9DBF37B91B1E01F8009E99EE /* CocoaLumberjack.framework in Frameworks */,
 				9D5CA65A1B132CB000356292 /* WLXBluetoothDeviceReactiveExtensions.framework in Frameworks */,
 				9D5CA70A1B132FB200356292 /* OCHamcrestIOS.framework in Frameworks */,
@@ -135,7 +128,6 @@
 		9D1FD7C91B12076C004A45F4 = {
 			isa = PBXGroup;
 			children = (
-				9DAB727F1BB362CD005D42E5 /* WLXBluetoothDevice.framework */,
 				9D5CA6501B132CAF00356292 /* WLXBluetoothDeviceReactiveExtensions */,
 				9D5CA65D1B132CB000356292 /* WLXBluetoothDeviceReactiveExtensionsTests */,
 				9D5CA6001B13097400356292 /* Frameworks */,
@@ -155,10 +147,10 @@
 		9D5CA6001B13097400356292 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9DAB727F1BB362CD005D42E5 /* WLXBluetoothDevice.framework */,
+				9DDA9FEA1DC95EF600D5F671 /* ReactiveObjC.framework */,
 				9DBF379C1B1D8BAE009E99EE /* CocoaLumberjack.framework */,
-				9D5CA7161B13374B00356292 /* Result.framework */,
 				9D5CA5FE1B13092900356292 /* OCHamcrestIOS.framework */,
-				9D44AB2E1B12FFCA0009A4A6 /* ReactiveCocoa.framework */,
 				9D44AB2C1B12DAE00009A4A6 /* OCMockitoIOS.framework */,
 				9D1FD8871B1230E5004A45F4 /* Expecta.framework */,
 				9D1FD8881B1230E5004A45F4 /* Specta.framework */,
