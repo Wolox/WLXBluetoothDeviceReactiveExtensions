@@ -1,5 +1,5 @@
 github "CocoaLumberjack/CocoaLumberjack" "3.0.0"
-github "ReactiveCocoa/ReactiveObjC" "1.0.1"
+github "ReactiveCocoa/ReactiveObjC" "2.1.0"
 github "specta/expecta" "v1.0.5"
 github "specta/specta" "v1.0.5"
 github "Wolox/WLXBluetoothDevice" "0.8.0"
