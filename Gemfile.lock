@@ -64,7 +64,7 @@ GEM
       clamp (~> 0.6)
       nokogiri (~> 1.6.3)
       xcodeproj (>= 0.20, < 2.0.0)
-    thread_safe (0.3.5)
+    thread_safe (0.3.6)
     travis (1.8.2)
       backports
       faraday (~> 0.9)
@@ -76,7 +76,7 @@ GEM
       typhoeus (~> 0.6, >= 0.6.8)
     typhoeus (0.8.0)
       ethon (>= 0.8.0)
-    tzinfo (1.2.2)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     websocket (1.2.3)
     xcodeproj (1.4.0)
